@@ -1,16 +1,21 @@
-# React + Vite
+# Expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A React-based expense tracking application with data visualization, built to help users log, filter, and analyze their spending patterns.
 
-Currently, two official plugins are available:
+## Features
+- Add, edit, and delete expenses with category and date tagging
+- Filter expenses by category and date range
+- Visualize spending with a pie chart (category-wise) and line chart (month-wise trend)
+- Dashboard summary showing total spent, top category, and total entries
+- Data persistence using localStorage (no backend required)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+- React.js (Vite)
+- JavaScript (ES6+)
+- Recharts (data visualization)
+- CSS3
+- localStorage API
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+1. Clone the repository:
